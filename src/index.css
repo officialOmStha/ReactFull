@@ -2,8 +2,10 @@ body{
   background-color: rgb(117, 112, 112);
   margin: 0%;
   font-family: Inter, sans-serif;
-}
-header{
+  justify-content: center;
+  align-items: center;
+} */
+/* header{
   background-color: rgb(245, 244, 245);
   height: 50px;
   padding: 30px 25px;
@@ -125,3 +127,29 @@ section .button-container{
   background-color: rgb(196, 147, 114);
 }
 
+
+.meForm {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inpCon{
+  display: flex;
+  gap: 5px;
+}
+
+.Meme-Main{
+  height: 800px;
+  width: 900px;
+  background-color: #D1D5DB;
+  padding: 20px 20px 20px 20px;
+  margin: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.Meme-Main img{
+  height: 80%;
+  width: 100%;
+}

@@ -1,11 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+// import './index.css'
 import MainCont from '../Price/MainCont'
 import Main from '../Journal/Mainn'
 import Array from './Array'
 import Man from '../jokeApp/Man'
 import Mc from "../Recipy/Mc"
+import Memain from "../memeApp/Memain"
+import Portfolio from '../Portfolio/Portfolio'
 
 
 
@@ -16,7 +18,9 @@ root.render(
     {/* <Main /> */}
     {/* <Array /> */}
     {/* <Man /> */}
-    <Mc />
+    {/* <Mc /> */}
+    {/* <Memain /> */}
+    <Portfolio />
   </>
 )
 

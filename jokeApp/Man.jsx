@@ -9,7 +9,6 @@ export default function Man(){
         punch ={joke.punch}
         />
     })
-    
     return(
         <main>
             {jokeElement}
