@@ -1,6 +1,8 @@
 * {
     padding: 0%;
     margin: 0%;
+    font-family: 'Poppins', sans-serif;
+      
 }
 body{
         overflow-x: hidden;
@@ -12,7 +14,7 @@ h1{
 }
 
 main {
-    background-image: linear-gradient(rgb(13, 13, 53), rgb(31, 31, 135), rgb(104, 104, 243));
+    background-image: linear-gradient(45deg, rgb(13, 13, 53), rgb(31, 31, 135), rgb(104, 104, 243));
     height: 100vh;
     width: 100%;
 }
@@ -24,29 +26,92 @@ main {
 #home {
     display: flex;
     width: 100%;
-    flex-basis: 50%;
 }
 
 .home-left {
     height: 100%;
-    width: 50%;
+    width: 70%;
     margin-top: 13%;
-    text-align: center;
     padding-bottom: 100px;
+    align-items: center;
+    padding-left: 10px;
 }
+
+.para{
+    margin-top: 7px;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.wraper {
+    display: flex;
+}
+
+.wraper .static-txt{
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+    /* border: 1px solid red; */
+}
+
+.wraper .dynamic-txts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    line-height: 75px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.dynamic-txts li{
+    list-style: none;
+    color: red;
+    font-size: 45px;
+    font-weight: 500;
+    top: 0;
+    position: relative;
+    animation: slide 12s steps(4) infinite;
+    position: relative;
+}
+
+@keyframes slide{
+    100%{
+        top: -300px;
+    }
+}
+
+.dynamic-txts li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #082032;
+    border-left: 2px solid red;
+    animation: typing 3s steps(15) infinite;
+}
+
+@keyframes typing{
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
+}
+
+
 
 .home-right {
     height: 100%;
-    width: 50%;
+    width: 30%;
     padding-top: 40px;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 100px;
     
 }
 
 .my-img {
-    margin-left: 30%;
     height: 300px;
     width: 300px;
     border-radius: 100%;

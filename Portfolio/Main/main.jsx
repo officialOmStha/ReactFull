@@ -15,9 +15,23 @@ export default function Main() {
         <main>
             <section className='secc' id="home">
                 <div className="home-left">
-                    <h1>Hello!!</h1>
-                    <h2>I am Om Shrestha</h2>
-                    <h3>A Web Developer.</h3>
+                    <div class="wraper">
+                        <div class="static-txt">I am</div>
+                        <ul class="dynamic-txts">
+                            <li><span>UI/UX</span></li>
+                            <li><span>WebDev</span></li>
+                            <li><span>Graphic</span></li>
+                            <li><span>Designer</span></li>
+                        </ul>
+                    </div>
+                    <div className='para'>
+                        <p>
+                            I’m a passionate web developer with a focus on creating <br />
+                            responsive, user-friendly, and efficient web applications. <br />
+                            Proficient in modern frameworks like React, I specialize <br />
+                            in building dynamic and interactive experiences.
+                        </p>
+                    </div>
                 </div>
                 <div className="home-right">
                     <div className='my-img'>
@@ -56,7 +70,7 @@ export default function Main() {
                 <div className="service-container">
                     <h1>Right now I am just studying.</h1>
                     <p>If you want to join me and do <br />
-                     any work I am down for that.</p>
+                        any work I am down for that.</p>
                 </div>
             </section>
 
@@ -69,12 +83,12 @@ export default function Main() {
                         <legend>Contact Me</legend>
                         <table>
                             <tr>
-                                    <label htmlFor="name">
-                                        Name:
-                                        <input type="text" />
-                                    </label>
+                                <label htmlFor="name">
+                                    Name:
+                                    <input type="text" />
+                                </label>
                             </tr>
-                            
+
                             <tr>
                                 <label htmlFor="email">Email:
                                     <input type="email" />
@@ -87,7 +101,7 @@ export default function Main() {
                             </tr>
                             <tr>
                                 <label htmlFor="message">Message: </label>
-                                    <textarea name="message" id="message"></textarea>
+                                <textarea name="message" id="message"></textarea>
                             </tr>
                             <tr>
                                 <button>Submit</button>
