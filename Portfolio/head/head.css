@@ -32,3 +32,37 @@ nav ul a{
 nav ul li :hover{
     background-color: rgb(65, 34, 219);
 }
+
+@media (max-width: 700px) {
+    section{
+        width: 100%;
+        overflow-x: hidden;
+        margin-bottom: 0;
+        margin-top: 0;
+        gap: 0;
+    }
+    header{
+        background-color: rgb(3, 3, 28);
+        color: aliceblue;
+        align-items: center;
+        height: 55vh;
+        padding: 30px 25px;
+        width: 100%;
+        gap: 40px;
+    }
+    nav{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: antiquewhite;
+    }
+    nav ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 30px;
+        list-style: none;
+    }
+}
