@@ -8,6 +8,7 @@ import Man from '../jokeApp/Man'
 import Mc from "../Recipy/Mc"
 import Memain from "../memeApp/Memain"
 import Portfolio from '../Portfolio/Portfolio'
+import Weather from "../weather/main"
 
 
 
@@ -21,6 +22,7 @@ root.render(
     {/* <Mc /> */}
     {/* <Memain /> */}
     <Portfolio />
+    {/* <Weather /> */}
   </>
 )
 

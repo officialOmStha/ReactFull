@@ -1,0 +1,59 @@
+.container{
+    margin-top: 5%;
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 90vh;
+    border: 3px rgb(77, 77, 215) solid;
+    border-radius: 5%;
+    background-color: rgb(77, 77, 215);
+}
+
+.top{
+    margin-top: 5%;
+    height: 8%;
+}
+.top form{
+    display: flex;
+    gap: 5%;
+    height: 100%;
+}
+
+.top form button{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(29, 101, 163);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.top form input{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: 3%;
+}
+
+.mid{
+    margin-top: 5%;
+    height: 55%;
+    text-align: center;
+
+}
+
+.img-container{
+    margin-left: 14%;
+    height: 60%;
+    width: 70%;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom{
+    margin-top: 5%;
+    height: 20%;
+    border: 2px solid black;
+}
