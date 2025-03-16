@@ -1,14 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-// import './index.css'
-import MainCont from '../Price/MainCont'
-import Main from '../Journal/Mainn'
-import Array from './Array'
-import Man from '../jokeApp/Man'
-import Mc from "../Recipy/Mc"
-import Memain from "../memeApp/Memain"
+import './index.css'
+// import MainCont from '../Price/MainCont'
+// import Main from '../Journal/Mainn'
+// import Array from './Array'
+// import Man from '../jokeApp/Man'
+// import Mc from "../Recipy/Mc"
+// import Memain from "../memeApp/Memain"
 import Portfolio from '../Portfolio/Portfolio'
-import Weather from "../weather/main"
+// import Weather from "../weather/main"
+// import Tic from "../game/TTT"
 
 
 
@@ -23,6 +24,7 @@ root.render(
     {/* <Memain /> */}
     <Portfolio />
     {/* <Weather /> */}
+    {/* <Tic /> */}
   </>
 )
 

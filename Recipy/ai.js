@@ -26,8 +26,8 @@ You are an assistant that receives a list of ingredients that
 // Make sure you set an environment variable in Scrimba 
 // for HF_ACCESS_TOKEN
 
-const BASE_URL = process.env.REACT_APP_HF_TOKEN;
-const hf = new HfInference(process.env.REACT_APP_HF_TOKEN)
+const BASE_URL = import.meta.env.REACT_APP_HF_TOKEN;
+const hf = new HfInference(import.meta.env.REACT_APP_HF_TOKEN)
 console.log(BASE_URL)
 
 export async function getRecipeFromMistral(ingredientsArr) {

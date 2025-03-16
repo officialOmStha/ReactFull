@@ -16,7 +16,7 @@ export default function Body() {
 
     async function getRecipe() {
         // setRecipe(prevShown => !prevShown)
-        // Right now recipe is gotting from Recipe.jsx
+        // Right now recipe is gotten from Recipe.jsx
         const recipeMarkdown = await getRecipeFromMistral(ingredientList)
         setRecipe(recipeMarkdown)
     }

@@ -1,11 +1,12 @@
-body{
+/* body{
   background-color: rgb(117, 112, 112);
   margin: 0%;
   font-family: Inter, sans-serif;
   justify-content: center;
   align-items: center;
-} */
-/* header{
+} 
+
+header{
   background-color: rgb(245, 244, 245);
   height: 50px;
   padding: 30px 25px;
@@ -152,4 +153,4 @@ section .button-container{
 .Meme-Main img{
   height: 80%;
   width: 100%;
-}
+} */
